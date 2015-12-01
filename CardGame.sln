@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Console", "CardGame.Console\CardGame.Console.csproj", "{71F911AE-5450-4BCF-BA0A-7D93756C074C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Core", "CardGame.Core\CardGame.Core.csproj", "{EB4A048D-C28C-4AFA-BFD9-0287366BE8C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.TextBased", "CardGame.TextBased\CardGame.TextBased.csproj", "{3EBE91F8-D62E-4E35-9C99-5069BE92DFCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGame.Utilities", "CardGame.Utilities\CardGame.Utilities.csproj", "{5787F8C8-C31D-4F81-BD64-36AD315C5950}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71F911AE-5450-4BCF-BA0A-7D93756C074C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F911AE-5450-4BCF-BA0A-7D93756C074C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F911AE-5450-4BCF-BA0A-7D93756C074C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F911AE-5450-4BCF-BA0A-7D93756C074C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB4A048D-C28C-4AFA-BFD9-0287366BE8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4A048D-C28C-4AFA-BFD9-0287366BE8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4A048D-C28C-4AFA-BFD9-0287366BE8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4A048D-C28C-4AFA-BFD9-0287366BE8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EBE91F8-D62E-4E35-9C99-5069BE92DFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBE91F8-D62E-4E35-9C99-5069BE92DFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBE91F8-D62E-4E35-9C99-5069BE92DFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBE91F8-D62E-4E35-9C99-5069BE92DFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5787F8C8-C31D-4F81-BD64-36AD315C5950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5787F8C8-C31D-4F81-BD64-36AD315C5950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5787F8C8-C31D-4F81-BD64-36AD315C5950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5787F8C8-C31D-4F81-BD64-36AD315C5950}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
