@@ -1,4 +1,8 @@
-Over-engineered to a large extent. This much is very apparent with just a quick glance at the code, spread over several project files with configuration files too. However, this project was to be treated as a professional project with extensible/reusable code, and thus I settled on these different patterns and principals:
+Project requirements are shown in the Project Requirements.docx file.
+
+
+
+This project is over-engineered to a large extent. This much is very apparent with just a quick glance at the code, spread over several project files with configuration files too. However, this project was to be treated as a professional project with extensible/reusable code, and thus I settled on these different patterns and principals:
 
 -SOLID Principles
 -Dependency Injection, with only constructor injection used
