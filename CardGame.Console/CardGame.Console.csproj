@@ -64,8 +64,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CardGameFactory.cs" />
+    <Compile Include="CardGameSessionManager.cs" />
+    <Compile Include="CardGameSettings.cs" />
+    <Compile Include="CardMemberData.cs" />
+    <Compile Include="ConsoleInterface.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="FactoryType.cs" />
+    <Compile Include="IDependencyResolver.cs" />
+    <Compile Include="NinjectCompositionRoot.cs" />
+    <Compile Include="NinjectDependencyResolver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpecialCardData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -45,8 +45,49 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Card.cs" />
+    <Compile Include="CardCollection.cs" />
+    <Compile Include="CardGame.cs" />
+    <Compile Include="CardGameCommands.cs" />
+    <Compile Include="CardGameScorer.cs" />
+    <Compile Include="CheckForGameEndCommand.cs" />
+    <Compile Include="Deck.cs" />
+    <Compile Include="DeckFactory.cs" />
+    <Compile Include="DeckSettings.cs" />
+    <Compile Include="DrawCardsCommand.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="FaceValue.cs" />
+    <Compile Include="ICard.cs" />
+    <Compile Include="ICardCollection.cs" />
+    <Compile Include="ICardCollectionFactory.cs" />
+    <Compile Include="ICardGame.cs" />
+    <Compile Include="ICardGameFactory.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="ICommandHandler.cs" />
+    <Compile Include="IDeck.cs" />
+    <Compile Include="IDeckFactory.cs" />
+    <Compile Include="IFaceValue.cs" />
+    <Compile Include="IPlayer.cs" />
+    <Compile Include="IPlayerCollection.cs" />
+    <Compile Include="IPlayerCollectionFactory.cs" />
+    <Compile Include="IPlayerFactory.cs" />
+    <Compile Include="IRandomGenerator.cs" />
+    <Compile Include="IScorer.cs" />
+    <Compile Include="IScorerFactory.cs" />
+    <Compile Include="ISuit.cs" />
+    <Compile Include="IVictoryChecker.cs" />
+    <Compile Include="IVictoryCheckerFactory.cs" />
+    <Compile Include="Player.cs" />
+    <Compile Include="PlayerCollection.cs" />
+    <Compile Include="PlayerCollectionFactory.cs" />
+    <Compile Include="PlayerFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RandomGenerator.cs" />
+    <Compile Include="ScoringSettings.cs" />
+    <Compile Include="Suit.cs" />
+    <Compile Include="UpdateScoresCommand.cs" />
+    <Compile Include="VictoryChecker.cs" />
+    <Compile Include="VictoryCheckerSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CardGame.Utilities\CardGame.Utilities.csproj">

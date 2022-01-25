@@ -45,8 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="CheckForGameEndCommandHandler.cs" />
+    <Compile Include="DrawCardsCommandHandler.cs" />
+    <Compile Include="Extensions.cs" />
+    <Compile Include="ITextInterface.cs" />
+    <Compile Include="KeyInputSettings.cs" />
+    <Compile Include="KeyPressEventArgs.cs" />
+    <Compile Include="PlayerCollectionFactory.cs" />
+    <Compile Include="PlayerSettings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextCardGameCommmandHandler.cs" />
+    <Compile Include="UpdateScoresCommandHandler.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CardGame.Core\CardGame.Core.csproj">
