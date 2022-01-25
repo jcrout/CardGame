@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CardGame.Core</RootNamespace>
     <AssemblyName>CardGame.Core</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -53,12 +53,6 @@
       <Project>{5787f8c8-c31d-4f81-bd64-36ad315c5950}</Project>
       <Name>CardGame.Utilities</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Analyzer Include="..\..\GuardAnalyzer\GuardAnalyzer\GuardAnalyzer\bin\Release\GuardAnalyzer.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="CardGame.Ruleset" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
